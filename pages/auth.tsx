@@ -61,7 +61,7 @@ const Auth = () => {
         password
       });
 
-      login();
+router.push('/profiles')
     } catch (error) {
         console.log(error);
     }
